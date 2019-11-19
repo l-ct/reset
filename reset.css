@@ -1,0 +1,58 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+ul li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+a:hover,
+button:hover,
+[type="button"]:hover,
+[type="reset"]:hover,
+[type="submit"]:hover {
+  cursor: pointer;
+}
+em,
+i {
+  font-style: italic;
+}
+strong,
+b {
+  font-weight: bolder;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+li {
+  font-weight: inherit;
+  font-size: 1em;
+}
+hr,
+button,
+input,
+textarea,
+select {
+  border: none;
+}
+:focus {
+  outline: 0;
+}
+button,
+input,
+textarea,
+select {
+  font-family: inherit;
+  font-size: inherit;
+  background: inherit;
+}
+address {
+  font-style: inherit;
+}

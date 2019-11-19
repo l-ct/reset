@@ -1,0 +1,55 @@
+*
+	padding 0
+	margin 0
+
+// no more dots
+ul li
+	list-style none
+
+// links won't be distinguished
+a
+	text-decoration none
+	color inherit
+
+a
+button
+[type="button"]
+[type="reset"]
+[type="submit"]
+	&:hover
+		cursor pointer
+
+em
+i
+	font-style italic
+
+strong
+b
+	font-weight bolder
+
+h1, h2, h3, h4, h5, h6, p, li
+	font-weight inherit
+	font-size 1em
+
+hr
+button
+input
+textarea
+select
+	border none
+
+// i know, i know:
+// bad for accesibility
+:focus
+	outline 0
+
+button
+input
+textarea
+select
+	font-family inherit
+	font-size inherit
+	background inherit
+
+address
+	font-style inherit
